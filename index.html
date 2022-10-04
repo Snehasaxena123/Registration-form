@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   
+    <div class="container">
+        <form>
+            <h1>Registration Form </h1>
+            <div class="divcontainer">
+              Email:
+                <input type="email" id="umail" placeholder=" Enter Email">
+            </div>
+            <div class="divcontainer">
+              Password:
+                <input type="password" id="upass" placeholder=" Enter Password">
+            </div>
+            <div class="divcontainer sub">
+                <div class="divsubcontainer">
+                  First Name:
+                    <input type="text" id="ufirstname" placeholder=" First Name">
+                </div>
+                <div class="divsubcontainer">
+                 Last Name:
+                    <input type="text" id="ulastname" placeholder=" Last Name">
+                </div>
+            </div>
+            <div class="divcontainer genderbox">
+              Select your gender:
+                <div class="gender" id="genderfirst">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male">Male</label>
+                </div>
+                <div class="gender">
+                    <input type="radio" name="gender" id="female">
+                    <label for="female">Female</label>
+                </div>
+              <div class="gender" id="genderfirst">
+                    <input type="radio" name="gender" id="other"
+                    <label for="other">Other</label>
+                </div>
+            </div>
+            <div class="divcontainer websitelink">
+              Enter your address:
+                <input type="text" id="weblink" placeholder=" Enter Your Address">
+            </div>
+            <div class="divcontainer skills">
+              Mention your skills:
+                <input type="text" id="skill" placeholder=" Enter Your skills ">
+            </div>
+            <div class="divcontainer checkbox">
+                <input type="checkbox" id="termsandconditions">
+                <label for="termsandconditions"> Read Terms and Conditions</label>
+            </div>
+            </div>
+            <div class="divcontainer button">
+                <input type="button" name="" id="submitButton" value="Register">
+            </div>
+            
+        </form>
+        
+    </div>
+    <div class="outputContainer">
+        <h1>Student Details</h1>
+        <div class="outputCard"></div>
+        
+    </div>
+    
+    <script src="main.js"></script>
+    
+</body>
+</html>
